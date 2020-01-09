@@ -1,6 +1,6 @@
 Name:           cpptest
 Version:        1.1.1
-Release:        7%{?dist}
+Release:        9%{?dist}
 Summary:        A portable and powerful and simple unit testing framework for C++
 
 Group:          System Environment/Libraries
@@ -72,6 +72,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.1.1-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.1-8
+- Mass rebuild 2013-12-27
+
 * Wed May 01 2013 Dan Mashal <dan.mashal@fedoraproject.org> -1.1.1-7
 -Add patch for aarch64 
 
